@@ -1,0 +1,118 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+}
+
+def printOutput(def output) {
+    return tasks.create("printOutput") {
+        println "#educational_plugin_checker_version 1"
+        def separator = System.lineSeparator()
+        def lines = output.toString().split("(?<=${separator})|(?=${separator})")
+        for (line in lines) {
+            println "#educational_plugin" + line
+        }
+    }
+}
+
+
+subprojects {
+    apply plugin: 'application'
+    //apply plugin: 'java'
+    apply plugin: 'java-library'
+
+    java {
+        toolchain {
+            languageVersion.set(JavaLanguageVersion.of(17))
+        }
+    }
+    tasks.withType(JavaCompile) {
+        javaCompiler = javaToolchains.compilerFor {
+                   languageVersion = JavaLanguageVersion.of(17)
+                }
+        options.compilerArgs += "--enable-preview"
+    }
+    tasks.withType(JavaExec) {
+        javaLauncher = javaToolchains.launcherFor {
+                    languageVersion = JavaLanguageVersion.of(17)
+                }
+        jvmArgs += "--enable-preview"
+    }
+    tasks.withType(Test) {
+        javaLauncher = javaToolchains.launcherFor {
+            languageVersion = JavaLanguageVersion.of(17)
+        }
+        useJUnitPlatform()
+        jvmArgs += "--enable-preview"
+    }
+    //tasks.withType(Javadoc) {
+    //    options {
+    //        addBooleanOption('-enable-preview', true)
+    //        addStringOption('-release', '19')
+    //    }
+    //}
+
+
+
+
+
+    repositories {
+        mavenCentral()
+    }
+
+    dependencies {
+        //testImplementation group: 'junit', name: 'junit', version: '4.12'
+        implementation 'org.junit.jupiter:junit-jupiter-api:5.9.0'
+        implementation 'org.junit.jupiter:junit-jupiter-engine:5.9.0'
+        implementation 'org.junit.jupiter:junit-jupiter-params:5.9.0'
+        implementation 'org.mockito:mockito-core:4.6.1'
+        implementation 'org.mockito:junit-jupiter:2.20.0'
+        implementation 'org.junit.platform:junit-platform-launcher:1.9.0'
+        implementation 'com.fasterxml.jackson.core:jackson-databind:2.13.4'
+        implementation 'com.fasterxml.jackson.core:jackson-core:2.13.4'
+    }
+    //test {
+    //    useJUnitPlatform()
+    //}
+
+    sourceSets {
+        main {
+            java.srcDir 'src'
+        }
+        test {
+            java.srcDir 'test'
+        }
+    }
+
+    mainClassName = project.hasProperty("mainClass") ? project.getProperty("mainClass") : ""
+
+    if (project.hasProperty("educationalRun") && "true".equalsIgnoreCase(project.getProperty("educationalRun"))) {
+        def runOutput = new ByteArrayOutputStream()
+        tasks.run.setStandardOutput(runOutput)
+        tasks.run.doLast { printOutput(runOutput) }
+    }
+}
+
+project(':util') {
+    dependencies {
+        //implementation group: 'junit', name: 'junit', version: '4.12'
+        implementation 'org.junit.jupiter:junit-jupiter:5.9.0'
+    }
+}
+
+configure(subprojects.findAll { it.name != 'util' }) {
+    dependencies {
+        implementation project(':util').sourceSets.main.output
+        testImplementation project(':util').sourceSets.test.output
+    }
+}
+
+dependencies {
+}
+
+repositories {
+    mavenCentral()
+}
+
+
+

@@ -1,0 +1,16 @@
+type: output
+custom_name: For & Multi Arrays
+files:
+  - name: test/output.txt
+    visible: false
+  - name: src/ForEach.java
+    visible: true
+    placeholders:
+      - offset: 326
+        length: 14
+        placeholder_text: /* TODO */
+      - offset: 357
+        length: 9
+        placeholder_text: /* TODO */
+  - name: test/latest_output.txt
+    visible: false

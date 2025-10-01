@@ -1,0 +1,33 @@
+type: output
+files:
+  - name: test/output.txt
+    visible: false
+  - name: src/BitLogic.java
+    visible: true
+    placeholders:
+      - offset: 443
+        length: 1
+        placeholder_text: /* TODO */
+      - offset: 467
+        length: 1
+        placeholder_text: /* TODO */
+      - offset: 491
+        length: 1
+        placeholder_text: /* TODO */
+      - offset: 517
+        length: 1
+        placeholder_text: /* TODO */
+      - offset: 521
+        length: 1
+        placeholder_text: /* TODO */
+      - offset: 525
+        length: 1
+        placeholder_text: /* TODO */
+      - offset: 552
+        length: 1
+        placeholder_text: /* TODO */
+      - offset: 580
+        length: 2
+        placeholder_text: /* TODO */
+  - name: test/latest_output.txt
+    visible: false

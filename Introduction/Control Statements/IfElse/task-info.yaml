@@ -1,0 +1,24 @@
+type: output
+files:
+  - name: test/output.txt
+    visible: false
+  - name: src/IfElse.java
+    visible: true
+    placeholders:
+      - offset: 176
+        length: 2
+        placeholder_text: /* TODO */
+      - offset: 260
+        length: 7
+        placeholder_text: /* TODO */
+      - offset: 348
+        length: 7
+        placeholder_text: /* TODO */
+      - offset: 439
+        length: 7
+        placeholder_text: /* TODO */
+      - offset: 529
+        length: 4
+        placeholder_text: /* TODO */
+  - name: test/latest_output.txt
+    visible: false

@@ -1,0 +1,21 @@
+type: output
+files:
+  - name: test/output.txt
+    visible: false
+  - name: src/Switch.java
+    visible: true
+    placeholders:
+      - offset: 119
+        length: 1
+        placeholder_text: /* TODO */
+      - offset: 340
+        length: 8
+        placeholder_text: /* TODO */
+      - offset: 441
+        length: 7
+        placeholder_text: /* TODO */
+      - offset: 660
+        length: 17
+        placeholder_text: /* TODO */
+  - name: test/latest_output.txt
+    visible: false

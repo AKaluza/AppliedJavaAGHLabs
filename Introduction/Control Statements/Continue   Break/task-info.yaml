@@ -1,0 +1,16 @@
+type: output
+custom_name: Continue & Break
+files:
+  - name: test/output.txt
+    visible: false
+  - name: src/ConinueAndBreak.java
+    visible: true
+    placeholders:
+      - offset: 161
+        length: 5
+        placeholder_text: /* TODO */
+      - offset: 191
+        length: 8
+        placeholder_text: /* TODO */
+  - name: test/latest_output.txt
+    visible: false

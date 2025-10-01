@@ -1,0 +1,15 @@
+type: edu
+files:
+  - name: src/Task.java
+    visible: true
+    placeholders:
+      - offset: 0
+        length: 24
+        placeholder_text: /* TODO */
+      - offset: 102
+        length: 331
+        placeholder_text: /* TODO */
+  - name: test/Tests.java
+    visible: false
+  - name: Estimating-PI.gif
+    visible: false

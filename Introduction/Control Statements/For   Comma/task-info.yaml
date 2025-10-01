@@ -1,0 +1,16 @@
+type: output
+custom_name: For & Comma
+files:
+  - name: test/output.txt
+    visible: false
+  - name: src/Comma.java
+    visible: true
+    placeholders:
+      - offset: 230
+        length: 9
+        placeholder_text: /* TODO */
+      - offset: 245
+        length: 8
+        placeholder_text: /* TODO */
+  - name: test/latest_output.txt
+    visible: false

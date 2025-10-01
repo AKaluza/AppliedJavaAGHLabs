@@ -1,0 +1,21 @@
+type: output
+files:
+  - name: test/output.txt
+    visible: false
+  - name: src/Matrix.java
+    visible: true
+    placeholders:
+      - offset: 120
+        length: 6
+        placeholder_text: /* TODO */
+      - offset: 220
+        length: 14
+        placeholder_text: /* TODO */
+      - offset: 341
+        length: 18
+        placeholder_text: /* TODO */
+      - offset: 420
+        length: 21
+        placeholder_text: /* TODO */
+  - name: test/latest_output.txt
+    visible: false

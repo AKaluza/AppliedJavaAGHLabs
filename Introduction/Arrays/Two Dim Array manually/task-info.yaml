@@ -1,0 +1,21 @@
+type: output
+files:
+  - name: test/output.txt
+    visible: false
+  - name: src/TwoDArrayM.java
+    visible: true
+    placeholders:
+      - offset: 178
+        length: 10
+        placeholder_text: /* TODO */
+      - offset: 206
+        length: 10
+        placeholder_text: /* type here  */
+      - offset: 234
+        length: 10
+        placeholder_text: /* type here  */
+      - offset: 262
+        length: 10
+        placeholder_text: /* type here  */
+  - name: test/latest_output.txt
+    visible: false

@@ -1,0 +1,16 @@
+type: output
+custom_name: For & Variation
+files:
+  - name: test/output.txt
+    visible: false
+  - name: src/ForSample.java
+    visible: true
+    placeholders:
+      - offset: 198
+        length: 35
+        placeholder_text: /* TODO */
+      - offset: 382
+        length: 12
+        placeholder_text: /* TODO */
+  - name: test/latest_output.txt
+    visible: false

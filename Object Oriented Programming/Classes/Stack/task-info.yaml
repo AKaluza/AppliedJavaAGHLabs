@@ -1,0 +1,27 @@
+type: output
+files:
+  - name: test/output.txt
+    visible: false
+  - name: src/StackDemo.java
+    visible: true
+    placeholders:
+      - offset: 78
+        length: 29
+        placeholder_text: /* TODO */
+      - offset: 116
+        length: 29
+        placeholder_text: /* TODO */
+  - name: src/Stack.java
+    visible: true
+    placeholders:
+      - offset: 325
+        length: 19
+        placeholder_text: /* TODO */
+      - offset: 476
+        length: 9
+        placeholder_text: /* TODO */
+      - offset: 508
+        length: 18
+        placeholder_text: /* TODO */
+  - name: test/latest_output.txt
+    visible: false

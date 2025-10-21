@@ -1,0 +1,26 @@
+type: output
+files:
+  - name: test/output.txt
+    visible: false
+  - name: src/PassObjRef.java
+    visible: true
+    placeholders:
+      - offset: 248
+        length: 11
+        placeholder_text: /* TODO */
+      - offset: 338
+        length: 11
+        placeholder_text: /* TODO */
+      - offset: 503
+        length: 18
+        placeholder_text: /* TODO */
+      - offset: 622
+        length: 17
+        placeholder_text: /* TODO */
+      - offset: 702
+        length: 19
+        placeholder_text: /* TODO */
+  - name: src/Test.java
+    visible: true
+  - name: test/latest_output.txt
+    visible: false

@@ -1,0 +1,27 @@
+type: edu
+files:
+  - name: src/org/example/Developer.java
+    visible: true
+    placeholders:
+      - offset: 64
+        length: 82
+        placeholder_text: /* TODO */
+  - name: src/org/example/Employee.java
+    visible: true
+    placeholders:
+      - offset: 55
+        length: 287
+        placeholder_text: /* TODO */
+  - name: src/org/example/Manager.java
+    visible: true
+    placeholders:
+      - offset: 95
+        length: 38
+        placeholder_text: ""
+      - offset: 136
+        length: 457
+        placeholder_text: /* TODO */
+  - name: src/org/example/HavingTeam.java
+    visible: true
+  - name: test/org/example/CompositeTests.java
+    visible: false

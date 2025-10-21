@@ -1,0 +1,53 @@
+type: edu
+files:
+  - name: src/org/example/Circle.java
+    visible: true
+    placeholders:
+      - offset: 29
+        length: 5
+        placeholder_text: ""
+      - offset: 47
+        length: 14
+        placeholder_text: ""
+      - offset: 64
+        length: 174
+        placeholder_text: /* TODO */
+  - name: src/org/example/Rectangle.java
+    visible: true
+    placeholders:
+      - offset: 44
+        length: 14
+        placeholder_text: ""
+      - offset: 65
+        length: 35
+        placeholder_text: ""
+      - offset: 156
+        length: 49
+        placeholder_text: /* TODO */
+      - offset: 248
+        length: 22
+        placeholder_text: |-
+          /* TODO */
+          throw new UnsupportedOperationException();
+  - name: src/org/example/Shape.java
+    visible: true
+    placeholders:
+      - offset: 29
+        length: 9
+        placeholder_text: ""
+      - offset: 51
+        length: 35
+        placeholder_text: ""
+  - name: src/org/example/Task.java
+    visible: true
+  - name: src/org/example/Triangle.java
+    visible: true
+    placeholders:
+      - offset: 43
+        length: 14
+        placeholder_text: ""
+      - offset: 64
+        length: 1118
+        placeholder_text: /* TODO Create Class definition */
+  - name: test/org/example/AbstractionTests.java
+    visible: false

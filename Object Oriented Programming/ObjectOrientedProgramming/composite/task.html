@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<h2>Object Oriented Programming: Composite</h2>
+
+<p>Implement class <code>Employee</code></p>
+
+<ul>
+    <li>
+        class must be abstract
+    </li>
+    <li>
+        class must have only two private fields:
+        <ul>
+            <li><strong>name</strong> of type <code>String</code></li>
+            <li><strong>salary</strong> of type <code>int</code></li>
+        </ul>
+    </li>
+    <li>
+        fields must be set only when new instance is created
+    </li>
+</ul>
+
+<p>Implement class <code>Manager</code></p>
+
+<ul>
+    <li>
+        must extend <code>Employee</code> class
+    </li>
+    <li>
+        must implement <code>HavingTeam</code> interface
+    </li>
+    <li>
+        method <code>add</code> should take argument of type Developer
+    </li>
+    <li>
+        should keep all added Developer instances
+    </li>
+    <li>
+        method <code>find</code> should take argument of type String that is a name of developer to find
+    </li>
+    <li>
+        method <code>find</code> should return <code>null</code> if such developer does not exist
+    </li>
+    <li>
+        method <code>find</code> should return reference to Developer instance if such exists
+    </li>
+</ul>
+
+<p>Implement class <code>Developer</code></p>
+
+<ul>
+    <li>
+        must extend <code>Employee</code> class
+    </li>
+</ul>
+</html>

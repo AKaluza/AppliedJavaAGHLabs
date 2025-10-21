@@ -1,0 +1,28 @@
+type: edu
+files:
+  - name: src/org/example/DateUser.java
+    visible: true
+    placeholders:
+      - offset: 144
+        length: 228
+        placeholder_text: |-
+          leayYear.day = 29;
+                  leayYear.month = 02;
+                  leayYear.year = 2017;
+  - name: src/org/example/MyDate.java
+    visible: true
+    placeholders:
+      - offset: 48
+        length: 7
+        placeholder_text: public
+      - offset: 75
+        length: 7
+        placeholder_text: public
+      - offset: 104
+        length: 7
+        placeholder_text: public
+      - offset: 122
+        length: 371
+        placeholder_text: ""
+  - name: test/org/example/EncapsulationTests.java
+    visible: false

@@ -1,0 +1,24 @@
+type: output
+files:
+  - name: test/output.txt
+    visible: false
+  - name: src/AccessTest.java
+    visible: true
+    placeholders:
+      - offset: 242
+        length: 2
+        placeholder_text: /* TODO */
+  - name: src/Test.java
+    visible: true
+    placeholders:
+      - offset: 24
+        length: 3
+        placeholder_text: /* TODO */
+      - offset: 53
+        length: 6
+        placeholder_text: /* TODO */
+      - offset: 88
+        length: 7
+        placeholder_text: /* TODO */
+  - name: test/latest_output.txt
+    visible: false

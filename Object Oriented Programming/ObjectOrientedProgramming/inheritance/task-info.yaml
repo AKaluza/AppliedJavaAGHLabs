@@ -1,0 +1,25 @@
+type: edu
+files:
+  - name: src/org/example/Address.java
+    visible: true
+    placeholders:
+      - offset: 45
+        length: 679
+        placeholder_text: /* TODO */
+  - name: src/org/example/Employee.java
+    visible: true
+    placeholders:
+      - offset: 45
+        length: 15
+        placeholder_text: ""
+      - offset: 67
+        length: 862
+        placeholder_text: /* TODO */
+  - name: src/org/example/Person.java
+    visible: true
+    placeholders:
+      - offset: 57
+        length: 271
+        placeholder_text: /* TODO */
+  - name: test/org/example/InheritanceTests.java
+    visible: false

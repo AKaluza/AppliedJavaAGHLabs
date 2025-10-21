@@ -1,0 +1,15 @@
+type: output
+files:
+  - name: test/output.txt
+    visible: false
+  - name: src/VarArgs.java
+    visible: true
+    placeholders:
+      - offset: 122
+        length: 9
+        placeholder_text: /* TODO */
+      - offset: 319
+        length: 21
+        placeholder_text: /* TODO */
+  - name: test/latest_output.txt
+    visible: false

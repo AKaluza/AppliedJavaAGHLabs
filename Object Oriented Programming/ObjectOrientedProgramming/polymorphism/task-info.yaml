@@ -1,0 +1,86 @@
+type: edu
+files:
+  - name: src/org/example/behavior/Descriptable.java
+    visible: true
+  - name: src/org/example/behavior/Traceable.java
+    visible: true
+  - name: src/org/example/Inventory.java
+    visible: true
+    placeholders:
+      - offset: 100
+        length: 0
+        placeholder_text: |-
+          import org.example.vehicles.Car;
+          import org.example.vehicles.Truck;
+      - offset: 215
+        length: 608
+        placeholder_text: |-
+          public void add(Car car) {
+                        throw new UnsupportedOperationException();
+                    }
+          
+                    public void add(Truck truck) {
+                        throw new UnsupportedOperationException();
+                    }
+          
+                    public int stockSize() {
+                        throw new UnsupportedOperationException();
+                    }
+          
+                    public Set<Identifier> identifiers() {
+                        throw new UnsupportedOperationException();
+                    }
+  - name: src/org/example/vehicles/Automobile.java
+    visible: true
+    placeholders:
+      - offset: 224
+        length: 8
+        placeholder_text: ""
+      - offset: 250
+        length: 34
+        placeholder_text: ""
+      - offset: 291
+        length: 397
+        placeholder_text: /* TODO */
+      - offset: 690
+        length: 0
+        placeholder_text: |-
+          public Description getDescription() {
+                  throw new UnsupportedOperationException();
+              }
+  - name: src/org/example/vehicles/Car.java
+    visible: true
+    placeholders:
+      - offset: 87
+        length: 19
+        placeholder_text: ""
+      - offset: 113
+        length: 42
+        placeholder_text: /* TODO */
+      - offset: 157
+        length: 1
+        placeholder_text: |-
+          public Description getDescription() {
+                  throw new UnsupportedOperationException();
+              }
+  - name: src/org/example/vehicles/Truck.java
+    visible: true
+    placeholders:
+      - offset: 90
+        length: 18
+        placeholder_text: ""
+      - offset: 115
+        length: 46
+        placeholder_text: /* TODO */
+      - offset: 163
+        length: 0
+        placeholder_text: |-
+          public Description getDescription() {
+                  throw new UnsupportedOperationException();
+              }
+  - name: src/org/example/domain/Description.java
+    visible: true
+  - name: src/org/example/domain/Identifier.java
+    visible: true
+  - name: test/org/example/PolymorphismTests.java
+    visible: false

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<h2>Object Oriented Programming: Polymorphism</h2>
+
+<h3>Class <code>Automobile</code> </h3>
+    <ul>
+        <li>must be an abstract class</li>
+        <li>must implement interface <code>Descriptable</code></li>
+        <li>must implement interface <code>Traceable</code></li>
+        <li>must track number of created instances starting from <strong>100</strong></li>
+        <li>parameterless constructor must increase number of instances by one</li>
+    </ul>
+
+<h3>Class <code>Car</code></h3>
+<ul>
+    <li>must extend class <code>Automobile</code></li>
+    <li>getDescription must return Description that contains name attribute equal to "Car"</li>
+</ul>
+
+<h3>Class <code>Truck</code></h3>
+<ul>
+    <li>must extend class <code>Automobile</code></li>
+    <li>getDescription must return Description that contains name attribute equal to "Truck"</li>
+</ul>
+
+<h3>Class <code>Inventory</code></h3>
+<ul>
+    <li>must implement only one method <code>add</code></li>
+    <li>must not contain the same automobile more than once</li>
+    <li>must implement method <code>stockSize</code> covering cars and trucks in an inventory</li>
+    <li>must implement method <code>identifiers</code> returning identifiers of all automobiles in an inventory</li>
+</ul>
+</html>

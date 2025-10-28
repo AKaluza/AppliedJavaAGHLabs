@@ -58,11 +58,11 @@ public class AbstractionTests {
     @DisplayName("Create Triangle instance")
     public void testTriangleConstructorFail() {
         Triangle my = new Triangle(1.0F, 2.0F, 3.0F);
-        float[] expected = new float[3];
-        expected[0] = 0.0F;
-        expected[1] = 0.0F;
-        expected[2] = 0.0F;
-        float[] result = new float[3];
+        double[] expected = new double[3];
+        expected[0] = 0.0;
+        expected[1] = 0.0;
+        expected[2] = 0.0;
+        double[] result = new double[3];
         result[0] = my.getA();
         result[1] = my.getB();
         result[2] = my.getC();

@@ -47,7 +47,7 @@ files:
         length: 14
         placeholder_text: ""
       - offset: 64
-        length: 1118
+        length: 1129
         placeholder_text: /* TODO Create Class definition */
   - name: test/org/example/AbstractionTests.java
     visible: false

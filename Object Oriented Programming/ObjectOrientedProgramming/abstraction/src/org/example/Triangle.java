@@ -1,9 +1,9 @@
 package org.example;
 
 public class Triangle extends Shape {
-    private float a, b, c;
+    private double a, b, c;
 
-    public Triangle(float a, float b, float c) {
+    public Triangle(double a, double b, double c) {
         if (this.isTriangel(a, b, c)) {
             this.a = a;
             this.b = b;
@@ -17,19 +17,19 @@ public class Triangle extends Shape {
 
     }
 
-    public float getA() {
+    public double getA() {
         return a;
     }
 
-    public float getB() {
+    public double getB() {
         return b;
     }
 
-    public float getC() {
+    public double getC() {
         return c;
     }
 
-    private boolean isTriangel(float a, float b, float c) {
+    private boolean isTriangel(double a, double b, double c) {
         boolean t1 = (a + b > c);
         boolean t2 = (a + c > b);
         boolean t3 = (c + b > a);
@@ -38,7 +38,7 @@ public class Triangle extends Shape {
 
     @Override
     public double area() {
-        float p = (this.a + this.b + this.c) / 2;
+        double p = (this.a + this.b + this.c) / 2;
         System.out.println("Area of Triangle is " +  Math.sqrt((p - this.a) * (p - this.b) * (p - this.c)));
         return  Math.sqrt(p* (p - this.a) * (p - this.b) * (p - this.c));
     }

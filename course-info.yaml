@@ -1,5 +1,5 @@
 type: marketplace
-title: Applied Java Lab
+title: Applied Java Lab - Test Driiven Development
 language: English
 summary: |-
   This is an introductory Java course.
@@ -12,5 +12,5 @@ vendor:
 programming_language: Java
 solutions_hidden: true
 content:
-
-
+  - Test Driven Development
+  - Generics

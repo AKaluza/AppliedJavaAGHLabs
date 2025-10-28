@@ -1,2 +1,7 @@
 /.idea/
 /.gradle/
+**/build/**
+build/
+Introduction/
+Object Oriented Programming/
+Test Driven Development

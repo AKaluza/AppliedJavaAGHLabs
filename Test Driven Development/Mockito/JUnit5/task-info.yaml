@@ -1,0 +1,19 @@
+type: edu
+files:
+  - name: src/CalculatorService.java
+    visible: true
+  - name: src/MathApplication.java
+    visible: true
+  - name: src/MathApplicationTest.java
+    visible: true
+    placeholders:
+      - offset: 497
+        length: 13
+        placeholder_text: /* TODO */
+      - offset: 648
+        length: 6
+        placeholder_text: /* TODO */
+  - name: src/RunJUnit5Test.java
+    visible: true
+  - name: test/RunJUnit5Tests.java
+    visible: false

@@ -1,0 +1,16 @@
+type: edu
+files:
+  - name: test/RunJUnit5Tests.java
+    visible: false
+  - name: src/CalculatorService.java
+    visible: true
+  - name: src/MathApplication.java
+    visible: true
+  - name: src/MathApplicationTest.java
+    visible: true
+    placeholders:
+      - offset: 556
+        length: 44
+        placeholder_text: /* TODO */
+  - name: src/RunJUnit5Test.java
+    visible: true

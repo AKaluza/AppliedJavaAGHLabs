@@ -1,0 +1,22 @@
+type: edu
+files:
+  - name: src/Calculator.java
+    visible: true
+    placeholders:
+      - offset: 391
+        length: 5
+        placeholder_text: /* TODO */
+      - offset: 917
+        length: 17
+        placeholder_text: /* TODO */
+      - offset: 940
+        length: 33
+        placeholder_text: /* TODO */
+      - offset: 1300
+        length: 17
+        placeholder_text: /* TODO */
+      - offset: 1323
+        length: 94
+        placeholder_text: /* TODO */
+  - name: test/CalcTests.java
+    visible: false

@@ -1,0 +1,13 @@
+type: edu
+files:
+  - name: src/Calculator.java
+    visible: true
+    placeholders:
+      - offset: 71
+        length: 332
+        placeholder_text: throw new UnsupportedOperationException();
+      - offset: 411
+        length: 616
+        placeholder_text: /* TODO */
+  - name: test/CalculatorTests.java
+    visible: true

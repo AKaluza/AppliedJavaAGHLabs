@@ -1,0 +1,38 @@
+<html>
+
+<h2>TDD</h2>
+
+<h3>Main goal</h3>
+<p>
+    The main purpose of this class is to show students the advantages of using IDE (i.e. IntelliJ IDEA) and following
+    the concept of Test Driven Development – including both unit tests and mocking the behavior of objects. They will
+    also have the opportunity to implement basic Java programs.
+</p>
+<p>After laboratory students should be able:</p>
+<ul>
+    <li>Use IDE (IntelliJ IDEA) to write, compile, run and debug Java code.</li>
+    <li>Use JUnit library to create unit test.</li>
+    <li>Use Mockito to simulate objects behavior.</li>
+    <li>Configure project to add required dependencies (Maven).</li>
+    <li>Understand value of TDD process and be able to adhere to it.</li>
+</ul>
+<h3>Required for the lab</h3>
+<p>Knowledge of basic Java syntax. Understanding of concepts: IDE, unit testing, mocking, TDD, debugging,
+    compilation.</p>
+
+<h3>TDD steps</h3>
+<ol>
+    <li>Create a String calculator with a method int sum(String numbers)</li>
+    <li>The method can take 0, 1, or 2 numbers and will return their sum.</li>
+    <li>An empty string will return 0.</li>
+    <li>Example inputs: “”, “1”, or “1,2”.</li>
+    <li>Start with the simplest test case of an empty string. Then 1 number. Then 2 numbers.</li>
+    <li>Remember to solve things as simply as possible, forcing yourself to write tests for things you didn’t think about.</li>
+    <li>Remember to refactor after each passing test.</li>
+    <li>Allow the sum method to handle an unknown number of arguments/numbers.</li>
+    <li>Negative numbers should be ignored.</li>
+    <li>Example: “-1,2” returns 2.</li>
+    <li>Calling sum with a sum bigger than 100 will throw an exception.</li>
+    <li>Example “1, 100” throws IllegalArgumentException.</li>
+</ol>
+</html>

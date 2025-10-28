@@ -1,0 +1,10 @@
+type: edu
+files:
+  - name: src/CalculatorService.java
+    visible: true
+  - name: src/MathApplication.java
+    visible: true
+  - name: src/MathApplicationTest.java
+    visible: true
+  - name: src/RunJUnit5Test.java
+    visible: true

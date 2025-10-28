@@ -1,0 +1,10 @@
+type: edu
+files:
+  - name: src/Address.java
+    visible: true
+    placeholders:
+      - offset: 413
+        length: 124
+        placeholder_text: /* TODO */
+  - name: test/AddrTests.java
+    visible: false

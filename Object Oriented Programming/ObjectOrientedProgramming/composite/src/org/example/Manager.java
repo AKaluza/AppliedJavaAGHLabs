@@ -11,7 +11,7 @@ public class Manager extends Employee implements HavingTeam {
     }
 
     @Override
-    public void add(Employee employee) {
+    public void add(Employee employee ) {
         employees.add(employee);
     }
 

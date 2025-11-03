@@ -2,3 +2,4 @@ content:
   - JUnit5
   - Mockito
   - TestDrivenDevelopment
+  - TestWithLambda

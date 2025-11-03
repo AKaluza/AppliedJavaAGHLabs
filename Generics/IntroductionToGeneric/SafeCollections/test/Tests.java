@@ -1,15 +1,25 @@
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
-class Tests {
-  @Test
-  void boxShouldHoldGenericType() {
-    Box<Integer> intBox = new Box<>();
-    intBox.set(10);
-    assertEquals(10, intBox.get());
+class BoxTest {
 
+  @Test
+  void shouldStoreAndReturnInteger() {
+    Box<Integer> intBox = new Box<>();
+    intBox.set(100);
+    assertEquals(100, intBox.get());
+  }
+
+  @Test
+  void shouldStoreAndReturnString() {
     Box<String> strBox = new Box<>();
-    strBox.set("Generics");
-    assertEquals("Generics", strBox.get());
+    strBox.set("Java");
+    assertEquals("Java", strBox.get());
+  }
+
+  @Test
+  void shouldReportEmptyWhenNoValueSet() {
+    Box<Double> box = new Box<>();
+    assertTrue(box.isEmpty());
   }
 }

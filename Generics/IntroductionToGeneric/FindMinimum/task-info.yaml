@@ -1,11 +1,11 @@
 type: edu
 files:
-  - name: src/Box.java
+  - name: src/GenericUtils.java
     visible: true
     placeholders:
-      - offset: 28
-        length: 200
+      - offset: 32
+        length: 108
         placeholder_text: /* TODO */
-  - name: test/Tests.java
+  - name: test/GenericUtilsTest.java
     visible: false
     propagatable: false

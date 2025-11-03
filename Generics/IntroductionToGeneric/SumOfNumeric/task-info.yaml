@@ -1,0 +1,7 @@
+type: edu
+files:
+  - name: src/Calculator.java
+    visible: true
+  - name: test/CalculatorTest.java
+    visible: false
+    propagatable: false

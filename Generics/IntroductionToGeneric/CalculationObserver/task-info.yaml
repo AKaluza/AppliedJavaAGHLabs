@@ -1,0 +1,38 @@
+type: edu
+files:
+  - name: src/Calculator.java
+    visible: true
+    placeholders:
+      - offset: 251
+        length: 174
+        placeholder_text: |-
+          public static void feedResults(IntegerObserver observer, int... values) {
+                  for (int v : values) {
+                      observer.observe(v); // autoboxed to Integer
+                  }
+              }
+          
+              public static void feedResults(NumberObserver observer, int... values) {
+                  for (int v : values) {
+                      observer.observe(v); // autoboxed to Integer
+                  }
+              }
+          
+              public static void feedResults(ObjectObserver observer, int... values) {
+                  for (int v : values) {
+                      observer.observe(v); // autoboxed to Integer
+                  }
+              }
+  - name: test/Tests.java
+    visible: false
+    propagatable: false
+  - name: src/CalculationObserver.java
+    visible: true
+  - name: src/IntegerObserver.java
+    visible: true
+  - name: src/NumberObserver.java
+    visible: true
+  - name: src/ObjectObserver.java
+    visible: true
+  - name: src/Playground.java
+    visible: true

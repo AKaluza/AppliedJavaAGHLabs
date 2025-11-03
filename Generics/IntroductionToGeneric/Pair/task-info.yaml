@@ -1,10 +1,10 @@
 type: edu
 files:
-  - name: src/Box.java
+  - name: src/Pair.java
     visible: true
     placeholders:
-      - offset: 28
-        length: 200
+      - offset: 30
+        length: 346
         placeholder_text: /* TODO */
   - name: test/Tests.java
     visible: false

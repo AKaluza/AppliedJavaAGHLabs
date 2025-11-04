@@ -1,3 +1,11 @@
+record Product(String name, double price) {
+    public Product {
+        if (price < 0) {
+            throw new IllegalArgumentException("Price cannot be negative");
+        }
+    }
+}
+
 public class Task {
     public static void main(String[] args) {
         Product p1 = new Product("Laptop", 3499.0);

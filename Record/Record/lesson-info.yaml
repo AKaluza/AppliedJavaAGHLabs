@@ -1,3 +1,5 @@
 content:
   - SimpleRecord
   - RecordWithValidation
+  - Record with MethodsAndStaticFactory
+  - Record with Static FieldsAndFactoryConstants

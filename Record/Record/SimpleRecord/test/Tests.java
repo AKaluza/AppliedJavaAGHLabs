@@ -1,6 +1,6 @@
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
-class BookTest {
+public class Tests {
 
   @Test
   void shouldCreateRecordAndCompare() {

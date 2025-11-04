@@ -1,3 +1,5 @@
+record Book(String title, String author) {}
+
 public class Task {
     public static void main(String[] args) {
         Book book1 = new Book("Effective Java", "Joshua Bloch");

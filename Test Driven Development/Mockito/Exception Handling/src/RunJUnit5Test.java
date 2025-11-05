@@ -26,17 +26,17 @@ public class RunJUnit5Test {
     private static void printReport(TestExecutionSummary summary) {
 
         System.out.println(
-                "\n------------------------------------------" +
-                        "\nTests started: " + summary.getTestsStartedCount() +
-                        "\nTests failed: " + summary.getTestsFailedCount() +
-                        "\nTests succeeded: " + summary.getTestsSucceededCount() +
-                        "\n------------------------------------------"
+                System.lineSeparator()+ "------------------------------------------" +
+                        System.lineSeparator()+ "Tests started: " + summary.getTestsStartedCount() +
+                        System.lineSeparator()+ "Tests failed: " + summary.getTestsFailedCount() +
+                        System.lineSeparator()+ "Tests succeeded: " + summary.getTestsSucceededCount() +
+                        System.lineSeparator()+ "------------------------------------------"
         );
 
         if(summary.getTestsFailedCount() > 0) {
             for(TestExecutionSummary.Failure f: summary.getFailures()){
                 System.out.println(f.getTestIdentifier().getSource() +
-                        "\nException " + f.getException());
+                        System.lineSeparator()+ "Exception " + f.getException());
             }
         }
     }

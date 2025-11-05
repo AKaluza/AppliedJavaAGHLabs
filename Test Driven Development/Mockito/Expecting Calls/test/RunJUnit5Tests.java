@@ -32,26 +32,26 @@ public class RunJUnit5Tests {
   private static void printReport(TestExecutionSummary summary) {
 
     System.out.println(
-            "\n------------------------------------------" +
-                    "\nTests started: " + summary.getTestsStartedCount() +
-                    "\nTests failed: " + summary.getTestsFailedCount() +
-                    "\nTests succeeded: " + summary.getTestsSucceededCount() +
-                    "\n------------------------------------------"
+            System.lineSeparator()+ "------------------------------------------" +
+                    System.lineSeparator()+ "Tests started: " + summary.getTestsStartedCount() +
+                    System.lineSeparator()+ "Tests failed: " + summary.getTestsFailedCount() +
+                    System.lineSeparator()+ "Tests succeeded: " + summary.getTestsSucceededCount() +
+                    System.lineSeparator()+ "------------------------------------------"
     );
 
     if(summary.getTestsFailedCount() > 0) {
       for(TestExecutionSummary.Failure f: summary.getFailures()){
         System.out.println(f.getTestIdentifier().getSource() +
-                "\nException " + f.getException());
+                System.lineSeparator()+ "Exception " + f.getException());
       }
     }
   }
 
-  static String expected = "\n------------------------------------------"+
-          "\nTests started: 1" +
-          "\nTests failed: 0" +
-          "\nTests succeeded: 1" +
-          "\n------------------------------------------\n";
+  static String expected = System.lineSeparator() + "------------------------------------------"+
+          System.lineSeparator() + "Tests started: 1" +
+          System.lineSeparator() + "Tests failed: 0" +
+          System.lineSeparator() + "Tests succeeded: 1" +
+          System.lineSeparator()+ "------------------------------------------"+ System.lineSeparator();
 
   @Test
   public void test() {

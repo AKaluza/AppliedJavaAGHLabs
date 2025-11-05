@@ -6,7 +6,7 @@ public class CalculatorTests {
   Calculator calculator = new Calculator();
 
   @Test
-  public void shouldReturnNullForEmptyString() {
+  public void shouldReturnZeroForEmptyString() {
     int sum = calculator.sum("");
 
     assertEquals(0, sum);

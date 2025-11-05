@@ -5,7 +5,7 @@ files:
     placeholders:
       - offset: 300
         length: 83
-        placeholder_text: "null"
+        placeholder_text: "s"
   - name: test/Tests.java
     visible: false
     propagatable: false

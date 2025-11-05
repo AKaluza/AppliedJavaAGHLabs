@@ -2,6 +2,10 @@ type: edu
 files:
   - name: src/Task.java
     visible: true
+    placeholders:
+      - offset: 141
+        length: 40
+        placeholder_text: s
   - name: test/Tests.java
     visible: false
     propagatable: false

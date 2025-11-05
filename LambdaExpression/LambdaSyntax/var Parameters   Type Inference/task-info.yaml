@@ -1,0 +1,12 @@
+type: edu
+custom_name: var Parameters & Type Inference
+files:
+  - name: src/Task.java
+    visible: true
+    placeholders:
+      - offset: 110
+        length: 25
+        placeholder_text: ""
+  - name: test/Tests.java
+    visible: false
+    propagatable: false

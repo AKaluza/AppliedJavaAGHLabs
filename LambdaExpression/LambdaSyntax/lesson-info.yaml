@@ -1,2 +1,4 @@
 content:
   - No Params   Multi Params
+  - Block Body   Return
+  - var Parameters   Type Inference

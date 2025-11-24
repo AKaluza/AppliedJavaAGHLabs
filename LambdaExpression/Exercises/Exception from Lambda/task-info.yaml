@@ -1,0 +1,10 @@
+type: edu
+files:
+  - name: src/LambdaExceptionDemo.java
+    visible: true
+    placeholders:
+      - offset: 791
+        length: 234
+        placeholder_text: /* TODO */
+  - name: test/LambdaExceptionTests.java
+    visible: false

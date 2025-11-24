@@ -1,0 +1,10 @@
+type: edu
+files:
+  - name: src/UseMethodRef.java
+    visible: true
+    placeholders:
+      - offset: 834
+        length: 23
+        placeholder_text: /* TODO */
+  - name: test/UseMethodRefTests.java
+    visible: false

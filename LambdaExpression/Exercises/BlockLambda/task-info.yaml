@@ -1,0 +1,16 @@
+type: edu
+files:
+  - name: src/Block.java
+    visible: true
+    placeholders:
+      - offset: 483
+        length: 149
+        placeholder_text: /* TODO */
+      - offset: 724
+        length: 20
+        placeholder_text: /* TODO */
+      - offset: 849
+        length: 149
+        placeholder_text: /* TODO */
+  - name: test/BlockTests.java
+    visible: false

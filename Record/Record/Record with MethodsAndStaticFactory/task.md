@@ -35,6 +35,7 @@ Product[name=Monitor, price=1000.0]
 Product[name=Monitor, price=900.0]
 Product[name=Mouse, price=129.99]
 ```
-
-💡 *Hint:* Records are immutable — don’t try to modify fields, always return new objects.
+<div class="hint">
+Records are immutable — don’t try to modify fields, always return new objects.
+</div>
 

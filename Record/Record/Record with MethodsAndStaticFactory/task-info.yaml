@@ -8,6 +8,6 @@ files:
   - name: src/Product.java
     visible: true
     placeholders:
-      - offset: 22
-        length: 25
-        placeholder_text: ""
+      - offset: 51
+        length: 552
+        placeholder_text: /* TODO */

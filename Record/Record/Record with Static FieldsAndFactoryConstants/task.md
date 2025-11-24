@@ -53,10 +53,11 @@ Created products: 2
 Default product: Product[name=Unknown, price=0.0]
 ```
 
-## Hints
-
+<div class="hint">
 * Static fields belong to the record type, not to the instance.
 * Compact constructor is a good place to increment counters.
 * Access static members via the record name, not `this`.
+</div>
+
 
 ````

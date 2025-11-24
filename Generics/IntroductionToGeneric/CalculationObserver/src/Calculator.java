@@ -12,5 +12,5 @@ public class Calculator {
         for (int v : values) {
             observer.observe(v);
         }
-    }
+    } 
 }

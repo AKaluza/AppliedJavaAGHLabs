@@ -4,10 +4,10 @@ files:
   - name: src/Task.java
     visible: true
     placeholders:
-      - offset: 231
+      - offset: 239
         length: 23
         placeholder_text: ""
-      - offset: 300
+      - offset: 308
         length: 14
         placeholder_text: ""
   - name: test/Tests.java

@@ -8,6 +8,6 @@ public class Task {
     public static void main(String[] args) {
         Task task = new Task();
         // Uncomment after implementing:
-         System.out.println(task.toUsername.apply("  Alice Smith  ")); // alice_smith
+        // System.out.println(task.toUsername.apply("  Alice Smith  ")); // alice_smith
     }
 }

@@ -1,10 +1,27 @@
-import org.junit.Assert;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
+
+import java.io.ByteArrayOutputStream;
+import java.io.PrintStream;
+import java.util.function.Consumer;
+
+import static org.junit.jupiter.api.Assertions.*;
+
 
 public class Tests {
   @Test
-  public void testSolution() {
-    // put your test here
-    Assert.fail("Tests not implemented for the task");
+  void consumerPrintsUppercase() {
+    Task t = new Task();
+    Consumer<String> t_s = t.getShout();
+    ByteArrayOutputStream baos = new ByteArrayOutputStream();
+    PrintStream orig = System.out;
+    System.setOut(new PrintStream(baos));
+
+    try {
+      t_s.accept("hello");
+    } finally {
+      System.setOut(orig);
+    }
+
+    assertTrue(baos.toString().trim().equals("HELLO!"));
   }
 }

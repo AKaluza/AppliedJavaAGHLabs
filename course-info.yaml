@@ -13,3 +13,5 @@ programming_language: Java
 solutions_hidden: true
 content:
   - Record
+environment_settings:
+  jvm_language_level: JDK_17_PREVIEW

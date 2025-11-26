@@ -8,7 +8,7 @@ methods return **new record instances**.
 
 ## Instructions
 
-1. Define a record `Product` with components:
+1. Define a record `ProductMy` with components:
 
   * `String name`
   * `double price`
@@ -16,24 +16,24 @@ methods return **new record instances**.
 3. Add an instance method:
 
    ```java
-   public Product withDiscount(double percent)
+   public ProductMy withDiscount(double percent)
    ```
 
-   which returns a **new Product** with price reduced by given percent.
+   which returns a **new ProductMy** with price reduced by given percent.
 4. Add a static factory:
 
    ```java
-   public static Product of(String name, double price)
+   public static ProductMy of(String name, double price)
    ```
 
-   which simply returns `new Product(name, price)`.
+   which simply returns `new ProductMy(name, price)`.
 
 ## Example Output
 
 ```
-Product[name=Monitor, price=1000.0]
-Product[name=Monitor, price=900.0]
-Product[name=Mouse, price=129.99]
+ProductMy[name=Monitor, price=1000.0]
+ProductMy[name=Monitor, price=900.0]
+ProductMy[name=Mouse, price=129.99]
 ```
 <div class="hint">
 Records are immutable — don’t try to modify fields, always return new objects.

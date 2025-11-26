@@ -7,3 +7,7 @@ files:
     propagatable: false
   - name: src/ProductMy.java
     visible: true
+    placeholders:
+      - offset: 57
+        length: 558
+        placeholder_text: /* TODO */

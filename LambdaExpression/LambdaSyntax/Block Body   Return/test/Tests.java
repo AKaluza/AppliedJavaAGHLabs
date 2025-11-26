@@ -5,10 +5,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class Tests {
   @Test
   void greeterTrimsAndGreets() {
-    Function<String,String> greeter = name -> {
-      String trimmed = name.trim();
-      return "Hello, " + trimmed + "!";
-    };
-    assertEquals("Hello, Alice!", greeter.apply("  Alice  "));
+    Task t = new Task();
+    assertEquals("Hello, Alice!", t.greeter.apply("  Alice  "));
   }
 }

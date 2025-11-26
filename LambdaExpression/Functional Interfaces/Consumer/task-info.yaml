@@ -3,9 +3,9 @@ files:
   - name: src/Task.java
     visible: true
     placeholders:
-      - offset: 156
-        length: 157
-        placeholder_text: ""
+      - offset: 192
+        length: 46
+        placeholder_text: s;
   - name: test/Tests.java
     visible: false
     propagatable: false

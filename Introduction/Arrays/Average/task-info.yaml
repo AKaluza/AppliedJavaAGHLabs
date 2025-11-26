@@ -1,18 +1,17 @@
 type: output
 files:
-  - name: test/output.txt
-    visible: false
   - name: src/Average.java
     visible: true
     placeholders:
-      - offset: 186
-        length: 6
+      - offset: 136
+        length: 5
+        placeholder_text: ""
+      - offset: 158
+        length: 12
         placeholder_text: /* TODO */
-      - offset: 208
-        length: 3
-        placeholder_text: /* TODO */
-      - offset: 301
-        length: 4
-        placeholder_text: /* TODO */
-  - name: test/latest_output.txt
+      - offset: 225
+        length: 19
+        placeholder_text: 0
+  - name: test/Tests.java
     visible: false
+    propagatable: false

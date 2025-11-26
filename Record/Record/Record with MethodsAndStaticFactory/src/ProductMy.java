@@ -1,19 +1,19 @@
-public record Product(String name, double price) {
-    public Product {
+public record ProductMy(String name, double price) {
+    public ProductMy {
         if (price <= 0) {
             throw new IllegalArgumentException("Price cannot be negative");
         }
     }
 
-    public Product withDiscount(double percent) {
+    public ProductMy withDiscount(double percent) {
         if (percent < 0 || percent > 100) {
             throw new IllegalArgumentException("Discount percent must be in range [0, 100]");
         }
         double newPrice = price * (1.0 - percent / 100.0);
-        return new Product(name, newPrice);
+        return new ProductMy(name, newPrice);
     }
 
-    public static Product of(String name, double price) {
-        return new Product(name, price);
+    public static ProductMy of(String name, double price) {
+        return new ProductMy(name, price);
     }
 }

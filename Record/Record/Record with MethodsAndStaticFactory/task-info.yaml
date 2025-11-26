@@ -5,9 +5,5 @@ files:
   - name: test/Tests.java
     visible: false
     propagatable: false
-  - name: src/Product.java
+  - name: src/ProductMy.java
     visible: true
-    placeholders:
-      - offset: 51
-        length: 552
-        placeholder_text: /* TODO */

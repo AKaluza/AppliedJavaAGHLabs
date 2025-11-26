@@ -5,8 +5,8 @@ class Tests {
 
   @Test
   void shouldCreateProductAndApplyDiscount() {
-    Product p = new Product("Monitor", 1000.0);
-    Product discounted = p.withDiscount(10.0);
+    ProductMy p = new ProductMy("Monitor", 1000.0);
+    ProductMy discounted = p.withDiscount(10.0);
 
     assertEquals("Monitor", discounted.name());
     assertEquals(900.0, discounted.price(), 0.001);
@@ -16,19 +16,19 @@ class Tests {
   @Test
   void shouldRejectInvalidPrice() {
     assertThrows(IllegalArgumentException.class,
-            () -> new Product("Mouse", -5.0));
+            () -> new ProductMy("Mouse", -5.0));
   }
 
   @Test
   void shouldCreateUsingFactoryMethod() {
-    Product mouse = Product.of("Mouse", 129.99);
+    ProductMy mouse = ProductMy.of("Mouse", 129.99);
     assertEquals("Mouse", mouse.name());
     assertEquals(129.99, mouse.price());
   }
 
   @Test
   void shouldKeepToStringReadable() {
-    Product p = new Product("Keyboard", 199.0);
+    ProductMy p = new ProductMy("Keyboard", 199.0);
     assertTrue(p.toString().contains("Keyboard"));
     assertTrue(p.toString().contains("price"));
   }

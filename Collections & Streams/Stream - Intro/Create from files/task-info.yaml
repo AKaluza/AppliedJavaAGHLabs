@@ -1,0 +1,15 @@
+type: edu
+files:
+  - name: data/Na straganie.txt
+    visible: true
+  - name: src/StreamingApp.java
+    visible: true
+    placeholders:
+      - offset: 740
+        length: 213
+        placeholder_text: /* TODO */
+      - offset: 1087
+        length: 33
+        placeholder_text: /* TODO */
+  - name: test/StreamingAppTest.java
+    visible: false

@@ -1,0 +1,16 @@
+type: edu
+files:
+  - name: test/org/example/Tests.java
+    visible: false
+  - name: src/org/example/Person.java
+    visible: true
+    placeholders:
+      - offset: 429
+        length: 421
+        placeholder_text: ""
+  - name: src/org/example/Address.java
+    visible: true
+    placeholders:
+      - offset: 247
+        length: 359
+        placeholder_text: ""

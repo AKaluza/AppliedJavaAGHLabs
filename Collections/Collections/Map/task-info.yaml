@@ -1,0 +1,24 @@
+type: edu
+files:
+  - name: src/org/example/FixDictionary.java
+    visible: true
+    placeholders:
+      - offset: 21
+        length: 27
+        placeholder_text: ""
+      - offset: 82
+        length: 56
+        placeholder_text: ""
+      - offset: 198
+        length: 23
+        placeholder_text: throw new UnsupportedOperationException("putValueForKey not
+          implemented");
+      - offset: 239
+        length: 7
+        placeholder_text: int
+      - offset: 284
+        length: 56
+        placeholder_text: throw new UnsupportedOperationException("getValueForKey not
+          implemented");
+  - name: test/org/example/FixDictionaryTest.java
+    visible: false

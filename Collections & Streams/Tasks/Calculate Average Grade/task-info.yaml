@@ -1,0 +1,20 @@
+type: edu
+files:
+  - name: src/com/simonmoorecode/streamstutorial/domain/City.java
+    visible: true
+  - name: src/com/simonmoorecode/streamstutorial/domain/Student.java
+    visible: true
+  - name: src/com/simonmoorecode/streamstutorial/domain/Subject.java
+    visible: true
+  - name: src/com/simonmoorecode/streamstutorial/LoadStudents.java
+    visible: true
+  - name: src/com/simonmoorecode/streamstutorial/CalculateAverageGrade.java
+    visible: true
+    placeholders:
+      - offset: 282
+        length: 75
+        placeholder_text: return OptionalDouble.empty();
+  - name: test/com/simonmoorecode/streamstutorial/TestCalculateAverageGrade.java
+    visible: false
+  - name: src/main/resources/students.csv
+    visible: true

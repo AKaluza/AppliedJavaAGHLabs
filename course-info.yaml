@@ -1,5 +1,5 @@
 type: marketplace
-title: Applied Java Lab - Record
+title: Applied Java Lab - Collections
 language: English
 summary: |-
   This is an introductory Java course.
@@ -13,3 +13,4 @@ programming_language: Java
 solutions_hidden: true
 content:
   - Collections
+  - Collections & Streams

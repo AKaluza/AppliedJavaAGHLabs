@@ -1,0 +1,21 @@
+type: edu
+files:
+  - name: src/org/example/CurrencyExchangePair.java
+    visible: true
+    placeholders:
+      - offset: 21
+        length: 27
+        placeholder_text: ""
+      - offset: 435
+        length: 556
+        placeholder_text: ""
+  - name: src/org/example/ExchangeRateCalculator.java
+    visible: true
+  - name: src/org/example/NoSuchExchangeRateException.java
+    visible: true
+  - name: src/org/example/StaticDataProvider.java
+    visible: true
+  - name: test/org/example/StaticDataProviderTest.java
+    visible: false
+  - name: src/org/example/runME.java
+    visible: true

@@ -1,0 +1,10 @@
+type: edu
+files:
+  - name: src/FlatMap.java
+    visible: true
+    placeholders:
+      - offset: 485
+        length: 251
+        placeholder_text: /* TODO */
+  - name: test/FlatMapTests.java
+    visible: false

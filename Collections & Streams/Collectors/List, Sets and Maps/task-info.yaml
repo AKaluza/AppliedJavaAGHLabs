@@ -1,0 +1,16 @@
+type: edu
+files:
+  - name: src/ToCollection.java
+    visible: true
+    placeholders:
+      - offset: 547
+        length: 29
+        placeholder_text: /* TODO */
+      - offset: 622
+        length: 19
+        placeholder_text: /* TODO */
+      - offset: 687
+        length: 71
+        placeholder_text: /* TODO */
+  - name: test/ToCollectionsTest.java
+    visible: false

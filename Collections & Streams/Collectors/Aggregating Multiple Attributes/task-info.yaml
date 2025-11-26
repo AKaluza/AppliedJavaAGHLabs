@@ -1,0 +1,16 @@
+type: edu
+files:
+  - name: src/Aggregating.java
+    visible: true
+    placeholders:
+      - offset: 675
+        length: 14
+        placeholder_text: /* TODO */
+      - offset: 742
+        length: 219
+        placeholder_text: /* TODO */
+      - offset: 1159
+        length: 738
+        placeholder_text: /* TODO */
+  - name: test/AggregatingTests.java
+    visible: false

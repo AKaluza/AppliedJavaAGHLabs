@@ -1,0 +1,26 @@
+type: edu
+files:
+  - name: src/com/simonmoorecode/streamstutorial/domain/City.java
+    visible: true
+  - name: src/com/simonmoorecode/streamstutorial/domain/Student.java
+    visible: true
+  - name: src/com/simonmoorecode/streamstutorial/domain/Subject.java
+    visible: true
+  - name: src/com/simonmoorecode/streamstutorial/LoadStudents.java
+    visible: true
+  - name: src/com/simonmoorecode/streamstutorial/FindMinStudentAge.java
+    visible: true
+    placeholders:
+      - offset: 481
+        length: 86
+        placeholder_text: /* TODO */
+      - offset: 659
+        length: 64
+        placeholder_text: /* TODO */
+      - offset: 822
+        length: 87
+        placeholder_text: /* TODO */
+  - name: test/com/simonmoorecode/streamstutorial/TestFindMinStudentAge.java
+    visible: false
+  - name: src/main/resources/students.csv
+    visible: true

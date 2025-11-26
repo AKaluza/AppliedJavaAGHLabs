@@ -1,0 +1,74 @@
+type: edu
+files:
+  - name: test/org/example/fifo/FIFOQueueImplTest.java
+    visible: false
+  - name: test/org/example/lifo/LIFOQueueImplTest.java
+    visible: false
+  - name: src/org/example/fifo/FIFOQueue.java
+    visible: true
+  - name: src/org/example/fifo/FIFOQueueImpl.java
+    visible: true
+    placeholders:
+      - offset: 25
+        length: 30
+        placeholder_text: ""
+      - offset: 113
+        length: 53
+        placeholder_text: ""
+      - offset: 211
+        length: 23
+        placeholder_text: throw new UnsupportedOperationException();
+      - offset: 286
+        length: 23
+        placeholder_text: throw new UnsupportedOperationException();
+      - offset: 366
+        length: 15
+        placeholder_text: throw new UnsupportedOperationException();
+  - name: src/org/example/lifo/LIFOQueue.java
+    visible: true
+  - name: src/org/example/lifo/LIFOQueueImpl.java
+    visible: true
+    placeholders:
+      - offset: 25
+        length: 30
+        placeholder_text: ""
+      - offset: 113
+        length: 53
+        placeholder_text: ""
+      - offset: 211
+        length: 23
+        placeholder_text: throw new UnsupportedOperationException();
+      - offset: 286
+        length: 23
+        placeholder_text: throw new UnsupportedOperationException();
+      - offset: 366
+        length: 16
+        placeholder_text: throw new UnsupportedOperationException();
+  - name: src/org/example/collection/MyCollection.java
+    visible: true
+  - name: src/org/example/collection/MyCollectionImpl.java
+    visible: true
+    placeholders:
+      - offset: 31
+        length: 58
+        placeholder_text: ""
+      - offset: 153
+        length: 51
+        placeholder_text: ""
+      - offset: 271
+        length: 47
+        placeholder_text: throw new UnsupportedOperationException("add method not implemented");
+      - offset: 371
+        length: 18
+        placeholder_text: throw new UnsupportedOperationException("first method not implemented");
+      - offset: 443
+        length: 18
+        placeholder_text: throw new UnsupportedOperationException("second method not implemented");
+      - offset: 514
+        length: 18
+        placeholder_text: throw new UnsupportedOperationException("third method not implemented");
+      - offset: 584
+        length: 29
+        placeholder_text: throw new UnsupportedOperationException("last method not implemented");
+  - name: test/org/example/collection/MyCollectionTest.java
+    visible: false

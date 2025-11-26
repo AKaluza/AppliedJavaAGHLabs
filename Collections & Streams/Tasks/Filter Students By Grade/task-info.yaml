@@ -1,0 +1,20 @@
+type: edu
+files:
+  - name: src/com/simonmoorecode/streamstutorial/domain/City.java
+    visible: true
+  - name: src/com/simonmoorecode/streamstutorial/domain/Student.java
+    visible: true
+  - name: src/com/simonmoorecode/streamstutorial/domain/Subject.java
+    visible: true
+  - name: src/com/simonmoorecode/streamstutorial/LoadStudents.java
+    visible: true
+  - name: src/com/simonmoorecode/streamstutorial/FilterStudentsByGrade.java
+    visible: true
+    placeholders:
+      - offset: 339
+        length: 106
+        placeholder_text: return new LinkedList<>();
+  - name: test/com/simonmoorecode/streamstutorial/TestFilterStudentsByGrade.java
+    visible: false
+  - name: src/main/resources/students.csv
+    visible: true

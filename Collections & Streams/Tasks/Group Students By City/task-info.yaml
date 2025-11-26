@@ -1,0 +1,20 @@
+type: edu
+files:
+  - name: src/com/simonmoorecode/streamstutorial/domain/City.java
+    visible: true
+  - name: src/com/simonmoorecode/streamstutorial/domain/Student.java
+    visible: true
+  - name: src/com/simonmoorecode/streamstutorial/domain/Subject.java
+    visible: true
+  - name: src/com/simonmoorecode/streamstutorial/LoadStudents.java
+    visible: true
+  - name: src/com/simonmoorecode/streamstutorial/GroupStudentsByCity.java
+    visible: true
+    placeholders:
+      - offset: 408
+        length: 73
+        placeholder_text: /* TODO */
+  - name: test/com/simonmoorecode/streamstutorial/TestGroupStudentsByCity.java
+    visible: false
+  - name: src/main/resources/students.csv
+    visible: true

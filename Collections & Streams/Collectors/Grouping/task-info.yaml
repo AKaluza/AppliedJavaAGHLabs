@@ -1,0 +1,19 @@
+type: edu
+files:
+  - name: src/Grouping.java
+    visible: true
+    placeholders:
+      - offset: 749
+        length: 35
+        placeholder_text: /* TODO */
+      - offset: 812
+        length: 40
+        placeholder_text: /* TODO */
+      - offset: 938
+        length: 62
+        placeholder_text: /* TODO */
+      - offset: 1143
+        length: 39
+        placeholder_text: /* TODO */
+  - name: test/GroupingTests.java
+    visible: false

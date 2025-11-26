@@ -1,0 +1,6 @@
+type: edu
+files:
+  - name: src/Partitioning.java
+    visible: true
+  - name: test/PartitioningTests.java
+    visible: false

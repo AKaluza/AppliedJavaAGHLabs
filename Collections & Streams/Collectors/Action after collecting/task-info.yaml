@@ -1,0 +1,19 @@
+type: edu
+files:
+  - name: src/ActionAfterCollect.java
+    visible: true
+    placeholders:
+      - offset: 913
+        length: 141
+        placeholder_text: /* TODO */
+      - offset: 1238
+        length: 108
+        placeholder_text: /* TODO */
+      - offset: 1491
+        length: 200
+        placeholder_text: /* TODO */
+      - offset: 1906
+        length: 173
+        placeholder_text: /* TODO */
+  - name: test/ActionAfterCollect.java
+    visible: false

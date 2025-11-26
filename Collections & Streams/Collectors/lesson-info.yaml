@@ -1,0 +1,9 @@
+content:
+  - Grouping
+  - Filtering
+  - FlatMapping
+  - SummaryStatistics
+  - "List, Sets and Maps"
+  - Action after collecting
+  - Aggregating Multiple Attributes
+  - Partitioning and Change Return Type

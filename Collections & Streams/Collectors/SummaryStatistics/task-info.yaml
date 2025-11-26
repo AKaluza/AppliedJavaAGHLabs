@@ -1,0 +1,10 @@
+type: edu
+files:
+  - name: src/SummaryStatistics.java
+    visible: true
+    placeholders:
+      - offset: 398
+        length: 149
+        placeholder_text: /* TODO */
+  - name: test/SummaryStatistics.java
+    visible: false

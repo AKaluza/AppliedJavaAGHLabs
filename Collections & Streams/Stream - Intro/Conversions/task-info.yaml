@@ -1,0 +1,31 @@
+type: edu
+files:
+  - name: src/StreamingApp.java
+    visible: true
+    placeholders:
+      - offset: 859
+        length: 14
+        placeholder_text: /* TODO */
+      - offset: 1002
+        length: 34
+        placeholder_text: /* TODO */
+      - offset: 1219
+        length: 18
+        placeholder_text: /* TODO */
+      - offset: 1314
+        length: 14
+        placeholder_text: /* TODO */
+      - offset: 1400
+        length: 29
+        placeholder_text: /* TODO */
+      - offset: 1633
+        length: 18
+        placeholder_text: /* TODO */
+      - offset: 1726
+        length: 34
+        placeholder_text: /* TODO */
+      - offset: 1818
+        length: 19
+        placeholder_text: /* TODO */
+  - name: test/StreamingAppTest.java
+    visible: false

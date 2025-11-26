@@ -1,0 +1,10 @@
+type: edu
+files:
+  - name: src/Filtering.java
+    visible: true
+    placeholders:
+      - offset: 413
+        length: 146
+        placeholder_text: /* TODO */
+  - name: test/FilteringTest.java
+    visible: false

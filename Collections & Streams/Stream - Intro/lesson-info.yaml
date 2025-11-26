@@ -1,0 +1,15 @@
+content:
+  - Create from an Array
+  - Create from a Collection
+  - Create from factory methods
+  - Create from files
+  - Mapping Operations
+  - Ordering Operations
+  - Conversions
+  - Matching and Filtering Operations
+  - Reduction Operations - reduce
+  - Reduction Operations - collect
+  - Specialized Reduction Operations
+  - Chaining Stream Operations
+  - Nullable Streams
+  - Infinite Streams

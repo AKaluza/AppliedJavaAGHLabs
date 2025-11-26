@@ -1,0 +1,24 @@
+type: edu
+files:
+  - name: src/org/example/MyArrayList.java
+    visible: true
+  - name: src/org/example/MyArrayListImpl.java
+    visible: true
+    placeholders:
+      - offset: 138
+        length: 61
+        placeholder_text: ""
+      - offset: 248
+        length: 23
+        placeholder_text: ""
+      - offset: 331
+        length: 184
+        placeholder_text: throw new UnsupportedOperationException("add method not implemented");
+      - offset: 575
+        length: 183
+        placeholder_text: throw new UnsupportedOperationException("get method not implemented");
+      - offset: 812
+        length: 17
+        placeholder_text: throw new UnsupportedOperationException("size method not implemented");
+  - name: test/org/example/MyArrayListImplTest.java
+    visible: false

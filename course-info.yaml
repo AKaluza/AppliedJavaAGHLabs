@@ -1,5 +1,5 @@
 type: marketplace
-title: Applied Java Lab
+title: Applied Java Lab - Threads and Concurrency
 language: English
 summary: |-
   This is an introductory Java course.
@@ -12,5 +12,4 @@ vendor:
 programming_language: Java
 solutions_hidden: true
 content:
-
-
+  - Threads and Concurrency

@@ -1,0 +1,16 @@
+type: edu
+files:
+  - name: test/org/example/BasicThreadTests.java
+    visible: false
+  - name: src/org/example/BasicThread.java
+    visible: true
+    placeholders:
+      - offset: 153
+        length: 69
+        placeholder_text: return false;
+      - offset: 265
+        length: 28
+        placeholder_text: /* TODO */
+      - offset: 297
+        length: 212
+        placeholder_text: /* TODO */

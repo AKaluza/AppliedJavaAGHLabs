@@ -1,0 +1,43 @@
+type: edu
+files:
+  - name: src/org/example/Task.java
+    visible: true
+    placeholders:
+      - offset: 2049
+        length: 0
+        placeholder_text: /* don't change */
+  - name: src/org/example/SimpleAccumulator.java
+    visible: true
+    placeholders:
+      - offset: 197
+        length: 57
+        placeholder_text: s++;
+  - name: src/org/example/model/Accumulator.java
+    visible: true
+  - name: src/org/example/model/Job.java
+    visible: true
+  - name: src/org/example/FiveJob.java
+    visible: true
+    placeholders:
+      - offset: 135
+        length: 22
+        placeholder_text: /* don't change */
+  - name: test/org/example/AccumulatorTests.java
+    visible: false
+  - name: src/org/example/AtomicAccumulator.java
+    visible: true
+    placeholders:
+      - offset: 278
+        length: 19
+        placeholder_text: /* TODO */
+      - offset: 351
+        length: 14
+        placeholder_text: /* TODO */
+  - name: src/org/example/BrokenAccumulator.java
+    visible: true
+    placeholders:
+      - offset: 165
+        length: 12
+        placeholder_text: ""
+  - name: src/org/example/VolatileAccumulator.java
+    visible: true

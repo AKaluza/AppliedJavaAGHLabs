@@ -1,0 +1,46 @@
+type: edu
+files:
+  - name: test/org/example/Tests.java
+    visible: false
+  - name: src/org/example/NumberProducer.java
+    visible: true
+  - name: src/org/example/NumberConsumer.java
+    visible: true
+  - name: src/org/example/model/Consumer.java
+    visible: true
+    placeholders:
+      - offset: 58
+        length: 10
+        placeholder_text: /* read only */
+  - name: src/org/example/model/Producer.java
+    visible: true
+    placeholders:
+      - offset: 58
+        length: 10
+        placeholder_text: /* read only */
+  - name: src/org/example/model/Buffer.java
+    visible: true
+    placeholders:
+      - offset: 28
+        length: 10
+        placeholder_text: /* read only */
+  - name: src/org/example/OneElementBuffer.java
+    visible: true
+    placeholders:
+      - offset: 379
+        length: 321
+        placeholder_text: /* TODO */
+      - offset: 784
+        length: 362
+        placeholder_text: /* TODO */
+  - name: src/org/example/ModernOneElementBuffer.java
+    visible: true
+    placeholders:
+      - offset: 389
+        length: 652
+        placeholder_text: /* TODO */
+      - offset: 1104
+        length: 675
+        placeholder_text: /* TODO */
+  - name: test/org/example/ModernTests.java
+    visible: false

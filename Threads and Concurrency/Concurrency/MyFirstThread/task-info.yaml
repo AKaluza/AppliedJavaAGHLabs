@@ -1,0 +1,14 @@
+type: theory
+files:
+  - name: src/ThreadAnonymous.java
+    visible: true
+  - name: src/ThreadSubclass.java
+    visible: true
+  - name: test/Tests.java
+    visible: false
+  - name: src/MyRunnable.java
+    visible: true
+  - name: src/MyRunnableAnonymous.java
+    visible: true
+  - name: src/LambdaImplementationOfRunnable.java
+    visible: true

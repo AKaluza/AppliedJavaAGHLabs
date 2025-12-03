@@ -1,0 +1,13 @@
+type: edu
+files:
+  - name: test/org/example/SplitterTests.java
+    visible: false
+  - name: src/org/example/Splitter.java
+    visible: true
+    placeholders:
+      - offset: 388
+        length: 238
+        placeholder_text: /* TODO */
+      - offset: 1005
+        length: 352
+        placeholder_text: /* TODO */

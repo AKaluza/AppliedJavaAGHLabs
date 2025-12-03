@@ -1,0 +1,42 @@
+<html>
+
+<h2>Concurrency: Producer & Consumer</h2>
+
+<p>Implement correctly OneElementBuffer class to meet all the requirements</p>
+<ul>
+    <li>
+        must synchronize NumberProducer with NumberConsumer
+    </li>
+    <li>
+        must store only one element at a time
+    </li>
+    <li>
+        stored element cannot be overwritten
+    </li>
+    <li>
+        stored element cannot be taken more than once
+    </li>
+    <li>
+        Producer produces <strong>end</strong> integer numbers from range [0, end)
+    </li>
+    <li>
+        Each produced value is placed in a buffer
+    </li>
+    <li>
+        Consumer consumes integer <strong>end</strong> numbers
+    </li>
+    <li>
+        Each consumed element is taken from a buffer one by one
+    </li>
+
+</ul>
+<div class="hint">
+  To fix OneElementBuffer use synchronized and Thread.yield
+</div>
+
+<div class="hint">
+  To fix ModernOneElementBuffer use synchronized and wait/notify
+</div>
+
+
+</html>

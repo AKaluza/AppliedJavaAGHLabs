@@ -1,5 +1,5 @@
 type: marketplace
-title: Applied Java Lab - Collections
+title: Applied Java Lab - Collections - with Solutions
 language: English
 summary: |-
   This is an introductory Java course.
@@ -10,7 +10,7 @@ summary: |-
 vendor:
   name: "Daniel Lewandowski, Natalia Czyżewska, Andrzej Kałuża, Piotr Kot, Paweł Morkisz"
 programming_language: Java
-solutions_hidden: true
+solutions_hidden: false
 content:
   - Collections
   - Collections & Streams

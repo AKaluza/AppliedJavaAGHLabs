@@ -5,7 +5,7 @@ import org.example.model.Accumulator;
 public class BrokenAccumulator implements Accumulator {
     private int s = 0;
     @Override
-    public   void increment() {
+    public  synchronized void increment() {
         s++;
     }
 

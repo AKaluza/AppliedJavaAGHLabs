@@ -1,0 +1,28 @@
+type: edu
+files:
+  - name: src/WriteReadObject.java
+    visible: true
+  - name: src/CollectionOfObjects.java
+    visible: true
+  - name: src/Person2_TransientExample.java
+    visible: true
+  - name: src/Person.java
+    visible: true
+  - name: test/TypeChecks.java
+    visible: false
+  - name: test/TransientWriteReadObjectTest.java
+    visible: false
+  - name: test/WriteReadObjectTest.java
+    visible: false
+  - name: src/base/BasicsIO.java
+    visible: true
+  - name: src/base/IBasicsIO.java
+    visible: true
+  - name: src/base/ICSVLine.java
+    visible: true
+  - name: src/base/IWriteReadObject.java
+    visible: true
+  - name: test/base/CSVWriteReadTestBase.java
+    visible: false
+  - name: test/base/WriteReadTestBase.java
+    visible: false

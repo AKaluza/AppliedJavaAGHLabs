@@ -1,0 +1,10 @@
+type: edu
+files:
+  - name: src/Redirecting.java
+    visible: true
+    placeholders:
+      - offset: 461
+        length: 687
+        placeholder_text: /* TODO */
+  - name: test/RedirectingIOTests.java
+    visible: false

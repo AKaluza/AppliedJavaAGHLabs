@@ -1,0 +1,25 @@
+type: edu
+files:
+  - name: src/TransientDemo.java
+    visible: true
+    placeholders:
+      - offset: 464
+        length: 82
+        placeholder_text: /* TODO */
+      - offset: 559
+        length: 25
+        placeholder_text: /* TODO */
+      - offset: 733
+        length: 73
+        placeholder_text: /* TODO */
+      - offset: 818
+        length: 28
+        placeholder_text: /* TODO */
+  - name: src/Student.java
+    visible: true
+    placeholders:
+      - offset: 284
+        length: 9
+        placeholder_text: /* TODO */
+  - name: test/TransientDemoTests.java
+    visible: false

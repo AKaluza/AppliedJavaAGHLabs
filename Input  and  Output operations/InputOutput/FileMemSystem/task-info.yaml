@@ -1,0 +1,22 @@
+type: edu
+files:
+  - name: src/base/FileMemSystem.java
+    visible: true
+    placeholders:
+      - offset: 588
+        length: 53
+        placeholder_text: /* TODO */
+      - offset: 904
+        length: 140
+        placeholder_text: /* TODO */
+      - offset: 1484
+        length: 197
+        placeholder_text: /* TODO */
+  - name: src/base/IFileService.java
+    visible: true
+  - name: test/FileMemSystemTestTests.java
+    visible: false
+  - name: src/base/FileMemTest.java
+    visible: true
+  - name: test/FileMemSystemRef.java
+    visible: false

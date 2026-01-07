@@ -1,0 +1,10 @@
+type: edu
+files:
+  - name: src/BRRead.java
+    visible: true
+    placeholders:
+      - offset: 279
+        length: 67
+        placeholder_text: /* TODO */
+  - name: test/BRReadTests.java
+    visible: false

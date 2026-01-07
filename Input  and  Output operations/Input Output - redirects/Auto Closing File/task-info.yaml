@@ -1,0 +1,10 @@
+type: edu
+files:
+  - name: src/CopyFile.java
+    visible: true
+    placeholders:
+      - offset: 809
+        length: 125
+        placeholder_text: /* TODO */
+  - name: test/CopyTests.java
+    visible: false

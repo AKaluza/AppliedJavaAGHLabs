@@ -1,0 +1,7 @@
+content:
+  - BasicIO
+  - FileMemSystem
+  - decoratorPatern
+  - csvfiles
+  - serializable
+  - externalizable

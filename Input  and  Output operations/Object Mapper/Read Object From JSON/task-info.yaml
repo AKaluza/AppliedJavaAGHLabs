@@ -1,0 +1,33 @@
+type: edu
+files:
+  - name: src/Car.java
+    visible: true
+    placeholders:
+      - offset: 84
+        length: 222
+        placeholder_text: /* TODO */
+  - name: src/ReadObjectFromJSON.java
+    visible: true
+    placeholders:
+      - offset: 843
+        length: 6
+        placeholder_text: /* TODO */
+      - offset: 907
+        length: 6
+        placeholder_text: /* TODO */
+      - offset: 971
+        length: 4
+        placeholder_text: /* TODO */
+      - offset: 1035
+        length: 3
+        placeholder_text: /* TODO */
+      - offset: 1101
+        length: 11
+        placeholder_text: /* TODO */
+      - offset: 1178
+        length: 6
+        placeholder_text: /* TODO */
+  - name: test/ReadObjectFromJSONTest.java
+    visible: false
+  - name: data/car.json
+    visible: true

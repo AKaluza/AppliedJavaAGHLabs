@@ -1,5 +1,5 @@
 type: marketplace
-title: Applied Java Lab
+title: Applied Java Lab - Input Output
 language: English
 summary: |-
   This is an introductory Java course.
@@ -12,5 +12,6 @@ vendor:
 programming_language: Java
 solutions_hidden: true
 content:
+  - Input  and  Output operations
 
 

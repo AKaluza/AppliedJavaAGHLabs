@@ -1,0 +1,16 @@
+type: edu
+files:
+  - name: src/Person2_ExternalizableExample.java
+    visible: true
+  - name: test/TypeChecks.java
+    visible: false
+  - name: test/ExternalizableWriteReadObjectTest.java
+    visible: false
+  - name: test/base/WriteReadTestBase.java
+    visible: false
+  - name: src/serializable/CollectionOfObjects.java
+    visible: true
+  - name: src/serializable/Person2_TransientExample.java
+    visible: true
+  - name: src/serializable/WriteReadObject.java
+    visible: true

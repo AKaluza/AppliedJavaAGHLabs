@@ -1,0 +1,46 @@
+type: edu
+files:
+  - name: test/CSVLineTest.java
+    visible: false
+  - name: test/ReadWriteCSVTest.java
+    visible: false
+  - name: src/base/ICSVLine.java
+    visible: false
+  - name: src/CSVLine.java
+    visible: true
+    placeholders:
+      - offset: 155
+        length: 33
+        placeholder_text: parts = null; //TODO put code here!;
+      - offset: 294
+        length: 227
+        placeholder_text: |-
+          //TODO put code here!
+          // we need to change String[] into csv line
+  - name: src/ReadWriteCSV.java
+    visible: true
+    placeholders:
+      - offset: 332
+        length: 35
+        placeholder_text: |-
+          //TODO put code here!;
+          // Think of using BasicIO
+      - offset: 381
+        length: 24
+        placeholder_text: null ; /* TODO */
+      - offset: 609
+        length: 175
+        placeholder_text: //TODO put code here!
+      - offset: 1458
+        length: 222
+        placeholder_text: //TODO put code here!
+  - name: test/base/WriteReadTestBase.java
+    visible: false
+  - name: src/base/BasicsIO.java
+    visible: false
+  - name: src/base/IBasicsIO.java
+    visible: false
+  - name: src/base/IReadWriteCSV.java
+    visible: false
+  - name: test/base/CSVWriteReadTestBase.java
+    visible: false

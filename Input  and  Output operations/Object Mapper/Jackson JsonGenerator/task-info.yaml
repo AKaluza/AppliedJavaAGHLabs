@@ -1,0 +1,16 @@
+type: edu
+files:
+  - name: src/JacksonJsonGenerator.java
+    visible: true
+    placeholders:
+      - offset: 744
+        length: 176
+        placeholder_text: /* TODO */
+      - offset: 932
+        length: 172
+        placeholder_text: /* TODO */
+      - offset: 1116
+        length: 172
+        placeholder_text: /* TODO */
+  - name: test/JacksonJsonGeneratorTests.java
+    visible: false

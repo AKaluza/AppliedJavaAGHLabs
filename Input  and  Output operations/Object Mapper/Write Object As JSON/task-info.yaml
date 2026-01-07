@@ -1,0 +1,13 @@
+type: edu
+files:
+  - name: test/WriteObjectAsJSONTests.java
+    visible: false
+  - name: src/WriteObjectAsJSON.java
+    visible: true
+    placeholders:
+      - offset: 922
+        length: 29
+        placeholder_text: /* TODO */
+      - offset: 982
+        length: 90
+        placeholder_text: /* TODO */

@@ -1,0 +1,8 @@
+content:
+  - BufferedReader and characters
+  - BufferedReader and Strings
+  - PrintWriter
+  - RedirectingIO
+  - FileToString
+  - Auto Closing File
+  - Transient

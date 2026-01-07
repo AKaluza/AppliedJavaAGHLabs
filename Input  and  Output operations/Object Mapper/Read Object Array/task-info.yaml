@@ -1,0 +1,19 @@
+type: edu
+files:
+  - name: src/ReadObjectArray.java
+    visible: true
+    placeholders:
+      - offset: 225
+        length: 27
+        placeholder_text: /* TODO */
+      - offset: 921
+        length: 11
+        placeholder_text: /* TODO */
+      - offset: 958
+        length: 5
+        placeholder_text: /* TODO */
+      - offset: 1151
+        length: 9
+        placeholder_text: /* TODO */
+  - name: test/ReadObectArrayTests.java
+    visible: false

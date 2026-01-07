@@ -1,0 +1,52 @@
+type: edu
+files:
+  - name: src/BasicsIO.java
+    visible: true
+    placeholders:
+      - offset: 317
+        length: 22
+        placeholder_text: |-
+          //TODO put code here!
+          return null;
+      - offset: 677
+        length: 152
+        placeholder_text: |-
+          //TODO put code here!
+          return null;
+      - offset: 936
+        length: 50
+        placeholder_text: |-
+          //TODO put code here!
+          return false;
+      - offset: 1094
+        length: 53
+        placeholder_text: |-
+          //TODO put code here!
+          return null;
+      - offset: 1240
+        length: 46
+        placeholder_text: |-
+          //TODO put code here!
+          return null;
+  - name: src/IBasicsIO.java
+    visible: true
+  - name: test/BasicIOTests.java
+    visible: false
+  - name: src/base/IFile.java
+    visible: true
+  - name: src/base/File.java
+    visible: true
+  - name: src/base/IFileService.java
+    visible: true
+  - name: test/BasicsIOTestsBase.java
+    visible: false
+  - name: src/BasicsIOMockitoTest.java
+    visible: true
+    placeholders:
+      - offset: 1315
+        length: 150
+        placeholder_text: /* TODO */
+  - name: src/BasicsIOBaseTest.java
+    visible: true
+  - name: test/RunJUnit5Tests.java
+    visible: false

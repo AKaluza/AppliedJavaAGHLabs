@@ -1,0 +1,61 @@
+type: edu
+files:
+  - name: src/ObjectsFactory.java
+    visible: true
+    placeholders:
+      - offset: 332
+        length: 61
+        placeholder_text: null; //TODO put code here!;
+      - offset: 681
+        length: 61
+        placeholder_text: null; //TODO put code here!;
+  - name: src/Panel.java
+    visible: true
+    placeholders:
+      - offset: 194
+        length: 100
+        placeholder_text: |-
+          //TODO put code here!
+                return null;
+  - name: src/TextBox.java
+    visible: true
+  - name: test/decorators/BoldTextDecoratorTest.java
+    visible: false
+  - name: test/decorators/RedColorDecoratorTest.java
+    visible: false
+  - name: test/decorators/BlueColorDecoratorTest.java
+    visible: false
+  - name: test/decorators/TransparentDecoratorTest.java
+    visible: false
+  - name: test/ObjectsFactoryTest.java
+    visible: false
+  - name: test/PanelTest.java
+    visible: false
+  - name: test/TextBoxTest.java
+    visible: false
+  - name: src/decorators/BlueColorDecorator.java
+    visible: true
+  - name: src/decorators/BoldTextDecorator.java
+    visible: true
+    placeholders:
+      - offset: 276
+        length: 97
+        placeholder_text: |-
+          //TODO put code here!
+          return null;
+  - name: src/decorators/ObjectDecorator.java
+    visible: true
+    placeholders:
+      - offset: 150
+        length: 200
+        placeholder_text: //TODO put code here!
+  - name: src/decorators/RedColorDecorator.java
+    visible: true
+  - name: src/decorators/TransparentDecorator.java
+    visible: true
+  - name: src/base/Attributes.java
+    visible: true
+  - name: src/base/IObject.java
+    visible: true
+  - name: test/testbase/TestsBase.java
+    visible: false

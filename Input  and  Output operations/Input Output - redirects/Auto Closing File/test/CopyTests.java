@@ -20,6 +20,7 @@ public class CopyTests {
     Files.deleteIfExists(pathOut);
     CopyFile.copy(fileNameIn,fileNameOut);
     String expected = Files.readString(pathIn);
+    Files.createDirectories(pathOut.getParent());
     String actual = Files.readString(pathOut) ;
     Assertions.assertEquals(expected,actual);
   }

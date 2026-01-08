@@ -8,3 +8,5 @@ files:
         placeholder_text: /* TODO */
   - name: test/CopyTests.java
     visible: false
+  - name: data/out.txt
+    visible: true

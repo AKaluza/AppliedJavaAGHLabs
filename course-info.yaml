@@ -10,7 +10,7 @@ summary: |-
 vendor:
   name: "Daniel Lewandowski, Natalia Czyżewska, Andrzej Kałuża, Piotr Kot, Paweł Morkisz"
 programming_language: Java
-solutions_hidden: true
+solutions_hidden: false
 content:
   - Input  and  Output operations
 

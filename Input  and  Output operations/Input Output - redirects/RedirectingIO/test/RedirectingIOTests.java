@@ -16,6 +16,7 @@ public class RedirectingIOTests {
       String fout = "data/test.txt";
       Path file = Paths.get(fout);
       Files.deleteIfExists(file);
+      Files.createDirectories(file.getParent());
       Files.createFile(file);
       Redirecting.redirectFromTo(fin,fout);
       byte[] b1 = Files.readAllBytes(file);

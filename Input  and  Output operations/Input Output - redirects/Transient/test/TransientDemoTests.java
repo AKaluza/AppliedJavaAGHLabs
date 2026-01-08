@@ -22,6 +22,7 @@ public class TransientDemoTests {
 
     final Path path = Paths.get(fileName);
     Files.deleteIfExists(path);
+    Files.createDirectories(path.getParent());
     TransientDemo.write(s1,fileName);
     Student s3 = TransientDemo.load(fileName);
     Files.deleteIfExists(path);
